@@ -64,7 +64,6 @@ C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook
 C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Web\bin\System.Web.Helpers.xml
 C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Web\bin\System.Web.Mvc.xml
 C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Web\obj\Debug\AndrewSnook.CIS174.EmployeeManagementApp.Web.csprojAssemblyReference.cache
 C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Web\obj\Debug\AndrewSnook.CIS174.EmployeeManagementApp.Web.csproj.CoreCompileInputs.cache
 C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Web\obj\Debug\AndrewSnook.CIS174.EmployeeManagementApp.Web.csproj.CopyComplete
 C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Web\obj\Debug\AndrewSnook.CIS174.EmployeeManagementApp.Web.dll
