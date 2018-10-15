@@ -1,0 +1,122 @@
+﻿@model AndrewSnook.CIS174.EmployeeManagementApp.Web.Models.CreateEmployeeModel
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Create</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-3.0.0.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+
+    <style type="text/css">
+        .row {
+            padding-top: 1%;
+            padding-bottom: 1%;
+        }
+        h1 {
+            padding-top: 2%;
+            padding-bottom: 2.5%
+        }
+        .btn {
+            width: 133px;
+        }
+    </style>
+
+</head>
+<body>
+    <form class="form-horizontal">
+        <div class="container">
+            <h1>Create Employee</h1>
+            <div class="row">
+                <div class="col-md-2">
+                    @Html.Label("First Name")
+                </div>
+                <div class="col-md-4">
+                    @Html.EditorFor(model => model.FirstName)
+                </div>
+                <div class="col-md-2">
+                    @Html.Label("Department")
+                </div>
+                <div class="col-md-4">
+                    @Html.EditorFor(model => model.Department)
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-2">
+                    @Html.Label("Middle Initial")
+                </div>
+                <div class="col-md-4">
+                    @Html.EditorFor(model => model.MiddleInitial)
+                </div>
+                <div class="col-md-2">
+                    @Html.Label("Job Title")
+                </div>
+                <div class="col-md-4">
+                    @Html.EditorFor(model => model.JobTitle)
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-2">
+                    @Html.Label("Last Name")
+                </div>
+                <div class="col-md-4">
+                    @Html.EditorFor(model => model.LastName)
+                </div>
+                <div class="col-md-2">
+                    @Html.Label("Salary")
+                </div>
+                <div class="col-md-2">
+                    @*@Html.EditorFor(model => model.Salary)*@
+                    @Html.TextBoxFor(model => model.Salary, new { type = "number" })
+                </div>
+                <div class="col-md-2">
+                    @Html.EnumDropDownListFor(model => model.SalaryType)
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-2">
+                    @Html.Label("Birth Date")
+                </div>
+                <div class="col-md-4">
+                    @Html.TextBoxFor(model => model.BirthDate, "{0:mm/dd/yyyy}", new { @class = "date" })
+                </div>
+                <div class="col-md-2">
+                    @Html.Label("Employee ID")
+                </div>
+                <div class="col-md-4">
+                    @Html.EditorFor(model => model.EmployeeID)
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-2">
+                    @Html.Label("Hire Date")
+                </div>
+                <div class="col-md-4">
+                    @Html.TextBoxFor(model => model.HireDate, new { @class = "date" })
+                </div>
+                <div class="col-md-2">
+                    @Html.Label("Available Hours")
+                </div>
+                <div class="col-md-4">
+                    @Html.EditorFor(model => model.AvailableHours)
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md offset-8">
+                    <button class="btn btn-primary" type="submit">Create</button>
+                    <button class="btn btn-secondary" type="reset">Clear</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
+
+
+

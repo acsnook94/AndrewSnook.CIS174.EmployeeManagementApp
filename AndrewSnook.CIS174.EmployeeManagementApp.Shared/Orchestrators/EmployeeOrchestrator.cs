@@ -1,4 +1,5 @@
 ﻿using AndrewSnook.CIS174.EmployeeManagementApp.Domain;
+using AndrewSnook.CIS174.EmployeeManagementApp.Domain.Entities;
 using AndrewSnook.CIS174.EmployeeManagementApp.Shared.Orchestrators.Interfaces;
 using AndrewSnook.CIS174.EmployeeManagementApp.Shared.ViewModels;
 using System.Collections.Generic;
@@ -17,6 +18,27 @@ namespace AndrewSnook.CIS174.EmployeeManagementApp.Shared.Orchestrators
             _employeeContext = new EmployeeContext();
         }
 
+        public async Task<int> CreateEmployee(EmployeeViewModel employee)
+        {
+            _employeeContext.Employees.Add(new Employee
+            {
+                EmployeeID = employee.EmployeeID,
+                FirstName = employee.FirstName,
+                MiddleInitial = employee.MiddleInitial,
+                LastName = employee.LastName,
+                HireDate = employee.HireDate,
+                BirthDate = employee.BirthDate,
+                Salary = employee.Salary,
+                SalaryType = employee.SalaryType,
+                JobTitle = employee.JobTitle,
+                Department = employee.Department,
+                AvailableHours = employee.AvailableHours
+
+            });
+
+            return await _employeeContext.SaveChangesAsync();
+        }
+
         public async Task<List<EmployeeViewModel>> GetAllEmployees()
         {
             var employees = await _employeeContext.Employees.Select(x => new EmployeeViewModel
@@ -32,8 +54,9 @@ namespace AndrewSnook.CIS174.EmployeeManagementApp.Shared.Orchestrators
                 JobTitle = x.JobTitle,
                 Department = x.Department,
                 AvailableHours = x.AvailableHours
-
             }).ToListAsync();
+
+            return employees;
         }
     }
 }

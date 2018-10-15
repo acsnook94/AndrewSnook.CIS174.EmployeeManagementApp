@@ -7,5 +7,6 @@ namespace AndrewSnook.CIS174.EmployeeManagementApp.Shared.Orchestrators.Interfac
     interface IEmployeeOrchestrator
     {
         Task<List<EmployeeViewModel>> GetAllEmployees();
+        Task<int> CreateEmployee(EmployeeViewModel employee);
     }
 }
