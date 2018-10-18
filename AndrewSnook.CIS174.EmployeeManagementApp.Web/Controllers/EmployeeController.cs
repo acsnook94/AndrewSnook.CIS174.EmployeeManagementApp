@@ -31,7 +31,6 @@ namespace AndrewSnook.CIS174.EmployeeManagementApp.Web.Controllers
 
             var updatedCount = await _employeeOrchestrator.CreateEmployee(new EmployeeViewModel
             {
-                EmployeeID = Guid.NewGuid(),
                 FirstName=employee.FirstName,
                 MiddleInitial=employee.MiddleInitial,
                 LastName=employee.LastName,
@@ -39,11 +38,13 @@ namespace AndrewSnook.CIS174.EmployeeManagementApp.Web.Controllers
                 BirthDate=employee.BirthDate,
                 Salary=employee.Salary,
                 SalaryType=employee.SalaryType,
+                EmployeeId=employee.EmployeeId,
                 JobTitle=employee.JobTitle,
                 Department=employee.Department,
                 AvailableHours=employee.AvailableHours
             });
 
+            ModelState.Clear();
             return View();
         }
     }

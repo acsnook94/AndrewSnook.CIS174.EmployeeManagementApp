@@ -2,6 +2,7 @@
 using AndrewSnook.CIS174.EmployeeManagementApp.Domain.Entities;
 using AndrewSnook.CIS174.EmployeeManagementApp.Shared.Orchestrators.Interfaces;
 using AndrewSnook.CIS174.EmployeeManagementApp.Shared.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
@@ -22,7 +23,6 @@ namespace AndrewSnook.CIS174.EmployeeManagementApp.Shared.Orchestrators
         {
             _employeeContext.Employees.Add(new Employee
             {
-                EmployeeID = employee.EmployeeID,
                 FirstName = employee.FirstName,
                 MiddleInitial = employee.MiddleInitial,
                 LastName = employee.LastName,
@@ -30,6 +30,7 @@ namespace AndrewSnook.CIS174.EmployeeManagementApp.Shared.Orchestrators
                 BirthDate = employee.BirthDate,
                 Salary = employee.Salary,
                 SalaryType = employee.SalaryType,
+                EmployeeId=employee.EmployeeId,
                 JobTitle = employee.JobTitle,
                 Department = employee.Department,
                 AvailableHours = employee.AvailableHours
@@ -43,7 +44,6 @@ namespace AndrewSnook.CIS174.EmployeeManagementApp.Shared.Orchestrators
         {
             var employees = await _employeeContext.Employees.Select(x => new EmployeeViewModel
             {
-                EmployeeID = x.EmployeeID,
                 FirstName = x.FirstName,
                 MiddleInitial = x.MiddleInitial,
                 LastName = x.LastName,
@@ -51,6 +51,7 @@ namespace AndrewSnook.CIS174.EmployeeManagementApp.Shared.Orchestrators
                 BirthDate = x.BirthDate,
                 Salary = x.Salary,
                 SalaryType = x.SalaryType,
+                EmployeeId=x.EmployeeId,
                 JobTitle = x.JobTitle,
                 Department = x.Department,
                 AvailableHours = x.AvailableHours
