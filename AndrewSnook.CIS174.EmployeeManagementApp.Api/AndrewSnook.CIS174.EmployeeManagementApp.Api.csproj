@@ -162,8 +162,8 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\AndrewSnook.CIS174.EmployeeManagementApp.Domain\AndrewSnook.CIS174.EmployeeManagementApp.Domain.csproj">
-      <Project>{87B9B4C1-EC55-495E-AE97-64704DCB12DC}</Project>
+    <ProjectReference Include="..\AndrewSnook.CIS174.EmployeeManagementApp.Domain\AndrewSnook.CIS174.EmployeeManagementApp.Domain.csproj">
+      <Project>{87b9b4c1-ec55-495e-ae97-64704dcb12dc}</Project>
       <Name>AndrewSnook.CIS174.EmployeeManagementApp.Domain</Name>
     </ProjectReference>
     <ProjectReference Include="..\AndrewSnook.CIS174.EmployeeManagementApp.Shared\AndrewSnook.CIS174.EmployeeManagementApp.Shared.csproj">
