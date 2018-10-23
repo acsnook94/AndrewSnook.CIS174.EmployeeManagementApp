@@ -1,0 +1,106 @@
+﻿@*=========================================================
+
+     Andrew Snook
+
+     Operating System: Windows 10
+
+     Microsoft Visual Studio 2017 Enterprise
+
+     CIS 174
+
+     EmployeeManagement (Week 5)
+
+     Program Description: This application allows the user to view and create database records containing employee information
+
+     Academic Honesty:
+
+     I attest that this is my original work.
+
+     I have not used unauthorized source code, either modified or unmodified.
+
+     I have not given other fellow student(s) access to my program.
+
+    ===========================================================*@
+
+@model AndrewSnook.CIS174.EmployeeManagementApp.Web.Models.EmployeeDisplayModel
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>View All Employees</title>
+
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/site.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-3.3.1.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+
+    <style>
+        .table-responsive{
+            border: 1px solid black;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <h2>All Employees</h2>
+        <div class="table-responsive">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Employee ID</th>
+                        <th>First Name</th>
+                        <th>Middle Initial</th>
+                        <th>Last Name</th>
+                        <th>Hire Date</th>
+                        <th>Salary</th>
+                        <th>Salary Type</th>
+                        <th>Job Title</th>
+                        <th>Department</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var employee in Model.Employees)
+                    {
+                    <tr>
+                        <td>
+                            @employee.EmployeeId
+                        </td>
+                        <td>
+                            @employee.FirstName
+                        </td>
+                        <td>
+                            @employee.MiddleInitial
+                        </td>
+                        <td>
+                            @employee.LastName
+                        </td>
+                        <td>
+                            @employee.HireDate
+                        </td>
+                        <td>
+                            @employee.Salary
+                        </td>
+                        <td>
+                            @employee.SalaryType
+                        </td>
+                        <td>
+                            @employee.JobTitle
+                        </td>
+                        <td>
+                            @employee.Department
+                        </td>
+                    </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+        <div class="row float-right last-row">
+            <input type="button" class="btn btn-primary" value="Create New" onclick="location.href='@Url.Action("Create")'" />
+        </div>
+
+    </div>
+</body>
+</html>

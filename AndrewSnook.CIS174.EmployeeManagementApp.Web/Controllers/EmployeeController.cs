@@ -37,7 +37,7 @@ namespace AndrewSnook.CIS174.EmployeeManagementApp.Web.Controllers
         private EmployeeOrchestrator _employeeOrchestrator = new EmployeeOrchestrator();
 
         // GET: Employee
-        public async Task<ActionResult> Index()
+        public async Task<ActionResult> ViewAllEmployees()
         {
             var employeeDisplayModel = new EmployeeDisplayModel
             {

@@ -12,7 +12,7 @@ namespace AndrewSnook.CIS174.EmployeeManagementApp.Web
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Employee", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "Employee", action = "ViewAllEmployees", id = UrlParameter.Optional }
             );
         }
     }
