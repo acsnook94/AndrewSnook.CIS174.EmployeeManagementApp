@@ -84,5 +84,59 @@ namespace AndrewSnook.CIS174.EmployeeManagementApp.Shared.Orchestrators
 
             return employees;
         }
+
+        public async Task<bool> UpdateEmployee(EmployeeViewModel employee)
+        {
+            var updateEntity = await _employeeContext.Employees.FindAsync(employee.EmployeeId);
+
+            if(updateEntity == null)
+            {
+                return false;
+            }
+
+            updateEntity.FirstName=employee.FirstName;
+            updateEntity.MiddleInitial=employee.MiddleInitial;
+            updateEntity.LastName=employee.LastName;
+            updateEntity.HireDate=employee.HireDate;
+            updateEntity.BirthDate=employee.BirthDate;
+            updateEntity.Salary=employee.Salary;
+            updateEntity.SalaryType=employee.SalaryType;
+            updateEntity.JobTitle=employee.JobTitle;
+            updateEntity.Department=employee.Department;
+            updateEntity.AvailableHours=employee.AvailableHours;
+
+            await _employeeContext.SaveChangesAsync();
+
+            return true;
+        }
+
+         public async Task<EmployeeViewModel> SearchEmployee(string searchString)
+        {
+            var employee = await _employeeContext.Employees
+                .Where(x => x.FirstName.StartsWith(searchString))
+                .FirstOrDefaultAsync();
+
+            if(employee == null)
+            {
+                return new EmployeeViewModel();
+            }
+
+            var viewModel = new EmployeeViewModel
+            {
+                FirstName=employee.FirstName,
+                MiddleInitial=employee.MiddleInitial,
+                LastName=employee.LastName,
+                HireDate=employee.HireDate,
+                BirthDate=employee.BirthDate,
+                Salary=employee.Salary,
+                SalaryType=employee.SalaryType,
+                EmployeeId=employee.EmployeeId,
+                JobTitle=employee.JobTitle,
+                Department=employee.Department,
+                AvailableHours=employee.AvailableHours
+            };
+
+            return viewModel;
+        }
     }
 }

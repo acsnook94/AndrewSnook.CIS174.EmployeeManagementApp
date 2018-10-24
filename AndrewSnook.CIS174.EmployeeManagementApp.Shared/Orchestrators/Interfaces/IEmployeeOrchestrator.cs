@@ -33,5 +33,7 @@ namespace AndrewSnook.CIS174.EmployeeManagementApp.Shared.Orchestrators.Interfac
     {
         Task<List<EmployeeViewModel>> GetAllEmployees();
         Task<int> CreateEmployee(EmployeeViewModel employee);
+        Task<bool> UpdateEmployee(EmployeeViewModel employee);
+        Task<EmployeeViewModel> SearchEmployee(string searchString);
     }
 }

@@ -72,5 +72,43 @@ namespace AndrewSnook.CIS174.EmployeeManagementApp.Web.Controllers
             ModelState.Clear();
             return View();
         }
+
+        public ActionResult Update()
+        {
+            return View();
+        }
+
+        public async Task<JsonResult> UpdateEmployee(UpdateEmployeeModel employee)
+        {
+            if (employee.EmployeeId == Guid.Empty)
+            {
+                return Json(false, JsonRequestBehavior.AllowGet);
+            }
+
+            var result = await _employeeOrchestrator.UpdateEmployee(new EmployeeViewModel
+            {
+                FirstName=employee.FirstName,
+                MiddleInitial=employee.MiddleInitial,
+                LastName=employee.LastName,
+                HireDate=employee.HireDate,
+                BirthDate=employee.BirthDate,
+                Salary=employee.Salary,
+                SalaryType=employee.SalaryType,
+                EmployeeId=employee.EmployeeId,
+                JobTitle=employee.JobTitle,
+                Department=employee.Department,
+                AvailableHours=employee.AvailableHours
+            });
+
+            return Json(result, JsonRequestBehavior.AllowGet);
+        }
+
+        public async Task<JsonResult> Search(string searchString)
+        {
+            var viewModel = await _employeeOrchestrator.SearchEmployee(searchString);
+
+            return Json(viewModel, JsonRequestBehavior.AllowGet);
+        }
+
     }
 }

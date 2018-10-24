@@ -1,6 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\AndrewSnook.CIS174.EmployeeManagementApp.Web",
+    "\\AndrewSnook.CIS174.EmployeeManagementApp.Web\\Content",
+    "\\AndrewSnook.CIS174.EmployeeManagementApp.Web\\Views",
+    "\\AndrewSnook.CIS174.EmployeeManagementApp.Web\\Views\\Employee"
   ],
+  "SelectedNode": "\\AndrewSnook.CIS174.EmployeeManagementApp.Web\\Views\\Employee\\Create.cshtml",
   "PreviewInSolutionExplorer": false
 }

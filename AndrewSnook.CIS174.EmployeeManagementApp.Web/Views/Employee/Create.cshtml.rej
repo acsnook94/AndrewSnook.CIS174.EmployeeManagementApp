@@ -1,0 +1,11 @@
+diff a/AndrewSnook.CIS174.EmployeeManagementApp.Web/Views/Employee/Create.cshtml b/AndrewSnook.CIS174.EmployeeManagementApp.Web/Views/Employee/Create.cshtml	(rejected hunks)
+@@ -115,6 +115,9 @@
+                 </div>
+             </div>
+ 
++            <div class="row form-group float-right">
++                <button class="btn btn-primary btn-block" type="submit" id="createPage-btn">Create</button>
++                <button class="btn btn-secondary btn-block" type="reset" id="createPage-btn">Clear</button>
+             </div>
+ 
+         </div>
