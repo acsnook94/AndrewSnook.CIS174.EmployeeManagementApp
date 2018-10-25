@@ -1,16 +1,35 @@
 ﻿function searchEmployee() {
-    var search = $("#searchString").val();
+    var search = $("#searchString").val().trim();
 
     $.ajax({
         url: "Search",
         data: { searchString: search }
     }).done(function (data) {
+        //var id =  $("#employeeId").val().toString();
         $("#employeeId").val(data.EmployeeId);
+        $("#employeeId").val(id);
         $("#firstName").val(data.FirstName);
         $("#middleInitial").val(data.MiddleInitial);
         $("#lastName").val(data.LastName);
+
+        //var hireYear = data.HireDate.substr(0,4);
+        //var hireDay = data.HireDate.substr(5,2);
+        //var hireMonth = data.HireDate.substr(7,2);
+ 
+        //var hireDate = mome
+        //var hireYear = hireDate.getFullYear();
+        //var hireDay = hireDate.getDate();
+        //var hireMonth = hireDate.getMonth() + 1; 
+        //var inputDateVal;
+
+        //if (hireDay.length < 2) {hireDay = '0' + hireDate};
+        //if (hireMonth.length < 2) {hireMonth = '0' + hireMonth};
+        //inputDateVal = hireYear + "-" + hireDay + "-" + hireMonth;
+
+        //$("#hireDate").val(inputDateVal);
         $("#hireDate").val(data.HireDate);
         $("#birthDate").val(data.BirthDate);
+
         $("#salary").val(data.Salary);
         $("#salaryType").val(data.SalaryType);
         $("#jobTitle").val(data.JobTitle);
