@@ -6,8 +6,8 @@
         data: { searchString: search }
     }).done(function (data) {
         //var id =  $("#employeeId").val().toString();
-        $("#employeeId").val(data.EmployeeId);
-        $("#employeeId").val(id);
+        //$("#employeeId").val(data.EmployeeId);
+        //$("#employeeId").val(id);
         $("#firstName").val(data.FirstName);
         $("#middleInitial").val(data.MiddleInitial);
         $("#lastName").val(data.LastName);
@@ -39,7 +39,6 @@
 }
 
 function updateEmployee() {
-    var employeeId = $("#employeeId").val();
     var firstName = $("#firstName").val();
     var middleInitial = $("#middleInitial").val();
     var lastName = $("#lastName").val();
@@ -55,7 +54,6 @@ function updateEmployee() {
         url: "UpdateEmployee",
         dataType: "json",
         data: {
-            EmployeeId: employeeId,
             FirstName: firstName,
             MiddleInitial: middleInitial,
             LastName: lastName,
