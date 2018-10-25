@@ -9,15 +9,14 @@
             <div class="col-md-2 col-form-label">
                 <label>Search Name</label>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-7">
                 <input id="searchString" type="text" class="form-control" />
             </div>
-            <div class="col-md-1">
-                <button class="btn btn-primary form-control" onclick="searchEmployee()">Search</button>
+            <div class="col-md-2 offset-md-1">
+                <button class="btn btn-primary form-control float-md-right" id="search-btn" onclick="searchEmployee()">Search</button>
             </div>
         </div>
         <hr />
-
 
         <div id="successMessage" class="hidden alert alert-success">
             Successfully Updated!
@@ -36,10 +35,10 @@
                 <input id="firstName" type="text" class="form-control" />
             </div>
 
-            <div class="col-md-1 col-form-label offset-2">
+            <div class="col-md-1 col-form-label offset-md-2">
                 <label>Department</label>
             </div>
-            <div class="col-md-3 offset-1">
+            <div class="col-md-3 offset-md-1">
                 <input id="department" type="text" class="form-control" />
             </div>
         </div>
@@ -52,7 +51,7 @@
                 <input id="middleInitial" type="text" class="form-control" />
             </div>
 
-            <div class="col-md-2 col-form-label offset-2">
+            <div class="col-md-2 col-form-label offset-md-2">
                 <label>Job Title</label>
             </div>
             <div class="col-md-3">
@@ -67,54 +66,57 @@
             <div class="col-md-3">
                 <input id="lastName" type="text" class="form-control" />
             </div>
-            <div class="col-md-2 col-form-label offset-2">
+
+            <div class="col-md-2 col-form-label offset-md-2">
                 <label>Salary</label>
             </div>
-
-            <span class="col-md-2">
-                <input id="salary" type="number" class="form-control" />
+            <div class="col-md-3 input-group">
+                <input id="salary" type="number" class="form-control col-md-6" />
                 @*<input id="salaryType" type="" class="form-control" />*@
-                @Html.EnumDropDownListFor(model => model.SalaryType, "Select", new { @class = "form-control", id = "salaryType" })
-            </span>
+                @Html.EnumDropDownListFor(model => model.SalaryType, "Select", new { @class = "form-control col-md-6", id = "salaryType" })
+            </div>
         </div>
 
-        <div class="col-md-12">
-            <div class="col-md-6">
+        <div class="row form-group">
+            <div class="col-md-2 col-form-label">
                 <label>Birth Date</label>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-3">
                 <input id="birthDate" type="date" class="form-control" />
             </div>
-        </div>
-        <div class="col-md-12">
-            <div class="col-md-6">
+
+            <div class="col-md-2 col-form-label offset-md-2">
                 <label>Employee Id</label>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-3">
                 <input id="employeeId" type="text" class="form-control" />
             </div>
         </div>
 
-        <div class="col-md-12">
-            <div class="col-md-6">
+        <div class="row form-group">
+            <div class="col-md-2 col-form-label">
                 <label>Hire Date</label>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-3">
                 <input id="hireDate" type="date" class="form-control" />
             </div>
-        </div>
-        <div class="col-md-12">
-            <div class="col-md-6">
+
+            <div class="col-md-2 col-form-label offset-md-2">
                 <label>Available Hours</label>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-3">
                 <input id="availableHours" type="text" class="form-control" />
             </div>
         </div>
 
-    <div class="col-md-12">
-        <button class="btn btn-secondary margin-top-md margin-left-md" onclick="updateEmployee()">Save</button>
-    </div>
+        <div class="row">
+            <div class="col-md-12 form-group">
+                <span>
+                    <button class="btn btn-primary col-md-1 offset-9 " onclick="updateEmployee()">Save</button>
+                    <button class="btn btn-secondary col-md-1 form-control" type="reset">Clear</button>
+                </span>
+            </div>
+        </div>
 
 </div>
     
