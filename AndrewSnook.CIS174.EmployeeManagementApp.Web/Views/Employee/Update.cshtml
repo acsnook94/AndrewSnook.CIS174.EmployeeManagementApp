@@ -75,6 +75,17 @@
             <input id="salary" type="number" class="form-control col-md-6" />
             @*<input id="salaryType" type="" class="form-control" />*@
             @Html.EnumDropDownListFor(model => model.SalaryType, "Select", new { @class = "form-control col-md-6", id = "salaryType" })
+
+            @*@{
+                var salTypeEnumList = new List<SelectListItem>
+                {
+                new SelectListItem { Text = "Type:", Value = "" },
+                new SelectListItem { Text = "Hourly", Value = "1" },
+                new SelectListItem { Text = "Annual", Value = "2" },
+                };
+            }
+
+            @Html.DropDownListFor(model => model.SalaryType, salTypeEnumList , new { @class = "form-control col-md-6", id = "salaryType" })*@
         </div>
     </div>
 
@@ -114,7 +125,7 @@
         <div class="col-md-12">
             <span class="col-md-4 offset-md-8">
                 <button class="btn btn-primary col-md-2 margin-top-md" onclick="updateEmployee()">Save</button>
-                <button class="btn btn-secondary col-md-2 margin-top-md" type="reset">Clear</button>
+                <button class="btn btn-secondary col-md-2 margin-top-md" onclick="clearFields()">Clear</button>
             </span>
         </div>
     </div>

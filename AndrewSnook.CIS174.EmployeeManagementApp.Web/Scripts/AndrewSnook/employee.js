@@ -5,31 +5,12 @@
         url: "Search",
         data: { searchString: search }
     }).done(function (data) {
-        //var id =  $("#employeeId").val().toString();
         $("#employeeId").val(data.EmployeeId);
-        $("#employeeId").val(id);
         $("#firstName").val(data.FirstName);
         $("#middleInitial").val(data.MiddleInitial);
         $("#lastName").val(data.LastName);
-
-        //var hireYear = data.HireDate.substr(0,4);
-        //var hireDay = data.HireDate.substr(5,2);
-        //var hireMonth = data.HireDate.substr(7,2);
- 
-        //var hireDate = mome
-        //var hireYear = hireDate.getFullYear();
-        //var hireDay = hireDate.getDate();
-        //var hireMonth = hireDate.getMonth() + 1; 
-        //var inputDateVal;
-
-        //if (hireDay.length < 2) {hireDay = '0' + hireDate};
-        //if (hireMonth.length < 2) {hireMonth = '0' + hireMonth};
-        //inputDateVal = hireYear + "-" + hireDay + "-" + hireMonth;
-
-        //$("#hireDate").val(inputDateVal);
         $("#hireDate").val(data.HireDate);
         $("#birthDate").val(data.BirthDate);
-
         $("#salary").val(data.Salary);
         $("#salaryType").val(data.SalaryType);
         $("#jobTitle").val(data.JobTitle);
@@ -39,6 +20,8 @@
 }
 
 function updateEmployee() {
+    var salaryType = {'Hourly' : 1, 'Annual' : 2};
+
     var employeeId = $("#employeeId").val();
     var firstName = $("#firstName").val();
     var middleInitial = $("#middleInitial").val();
@@ -46,7 +29,26 @@ function updateEmployee() {
     var hireDate = $("#hireDate").val();
     var birthDate = $("#birthDate").val();
     var salary = $("#salary").val();
-    var salaryType = $("salaryType").val();
+    var salaryType;
+
+    var salaryTypeOption = $("#salaryType").val();
+    if (salaryTypeOption == salaryType.Hourly) {
+        salaryType = 'Hourly';
+    }
+    else if (salaryTypeOption == salaryType.Annual) {
+        salaryType = 'Annual';
+    }
+    else {
+        salaryType = '';
+    }
+
+    //if ($("salaryType").val() == 'Hourly') {
+    //    salaryType = 1;
+    //}
+    //else if ($("salaryType").val() == 'Annual') {
+    //    salaryType = 2
+    //}
+    
     var jobTitle = $("#jobTitle").val();
     var department = $("#department").val();
     var availableHours = $("#availableHours").val();
@@ -68,7 +70,7 @@ function updateEmployee() {
             AvailableHours: availableHours
         }
     }).done(function (data) {
-        if (data) {
+        if (data & (salaryType != '')) {
             $("#successMessage").removeClass("hidden")
                 .addClass("visible");
         }
@@ -77,4 +79,18 @@ function updateEmployee() {
                 .add("visible")
         }
     });
+}
+
+function clearFields() {
+    $("#employeeId").val('');
+    $("#firstName").val('');
+    $("#middleInitial").val('');
+    $("#lastName").val('');
+    $("#hireDate").val('');
+    $("#birthDate").val('');
+    $("#salary").val('');
+    $("#salaryType").val('Select');
+    $("#jobTitle").val('');
+    $("#department").val('');
+    $("#availableHours").val('');
 }

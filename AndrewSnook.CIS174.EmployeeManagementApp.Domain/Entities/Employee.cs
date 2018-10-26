@@ -24,6 +24,7 @@
 
 
 using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace AndrewSnook.CIS174.EmployeeManagementApp.Domain.Entities
 {
