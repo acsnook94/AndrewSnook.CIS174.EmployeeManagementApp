@@ -10,6 +10,7 @@
         $("#middleInitial").val(data.MiddleInitial);
         $("#lastName").val(data.LastName);
         $("#hireDate").val(data.HireDate);
+        $("#hireDate").val(formattedHireDate);
         $("#birthDate").val(data.BirthDate);
         $("#salary").val(data.Salary);
         $("#salaryType").val(data.SalaryType);
