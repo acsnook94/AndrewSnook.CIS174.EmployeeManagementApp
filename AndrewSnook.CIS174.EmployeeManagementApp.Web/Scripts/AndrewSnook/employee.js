@@ -41,13 +41,6 @@ function updateEmployee() {
     else {
         salaryType = '';
     }
-
-    //if ($("salaryType").val() == 'Hourly') {
-    //    salaryType = 1;
-    //}
-    //else if ($("salaryType").val() == 'Annual') {
-    //    salaryType = 2
-    //}
     
     var jobTitle = $("#jobTitle").val();
     var department = $("#department").val();
@@ -79,18 +72,4 @@ function updateEmployee() {
                 .add("visible")
         }
     });
-}
-
-function clearFields() {
-    $("#employeeId").val('');
-    $("#firstName").val('');
-    $("#middleInitial").val('');
-    $("#lastName").val('');
-    $("#hireDate").val('');
-    $("#birthDate").val('');
-    $("#salary").val('');
-    $("#salaryType").val('Select');
-    $("#jobTitle").val('');
-    $("#department").val('');
-    $("#availableHours").val('');
 }
