@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AndrewSnook.CIS174.Employee
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AndrewSnook.CIS174.EmployeeManagementApp.Domain", "AndrewSnook.CIS174.EmployeeManagementApp.Domain\AndrewSnook.CIS174.EmployeeManagementApp.Domain.csproj", "{87B9B4C1-EC55-495E-AE97-64704DCB12DC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AndrewSnook.CIS174.EmployeeManagementApp.Test", "AndrewSnook.CIS174.EmployeeManagementApp.Test\AndrewSnook.CIS174.EmployeeManagementApp.Test.csproj", "{0F9375D0-303D-408E-97F9-619B23B42BA8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{87B9B4C1-EC55-495E-AE97-64704DCB12DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87B9B4C1-EC55-495E-AE97-64704DCB12DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87B9B4C1-EC55-495E-AE97-64704DCB12DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F9375D0-303D-408E-97F9-619B23B42BA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F9375D0-303D-408E-97F9-619B23B42BA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F9375D0-303D-408E-97F9-619B23B42BA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F9375D0-303D-408E-97F9-619B23B42BA8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
