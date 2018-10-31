@@ -63,7 +63,7 @@ namespace AndrewSnook.CIS174.EmployeeManagementApp.Web.Controllers
                 BirthDate=employee.BirthDate,
                 Salary=employee.Salary,
                 SalaryType=employee.SalaryType,
-                EmployeeId=employee.EmployeeId,
+                EmployeeId=Guid.NewGuid(),
                 JobTitle=employee.JobTitle,
                 Department=employee.Department,
                 AvailableHours=employee.AvailableHours

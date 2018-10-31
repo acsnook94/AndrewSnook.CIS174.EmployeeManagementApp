@@ -35,12 +35,22 @@
 
         }
     </style>
+    <script>
+        function confirmCreate() {
+            $("#confirmCreateMsg").removeClass("hidden")
+                .addClass("visible");
+        }
+    </script>
 
 </head>
 <body>
     <form class="form form-horizontal container">
         <h2>Create Employee</h2>
         <br />
+
+        <div id="confirmCreateMsg" class="hidden alert alert-success">
+            Employee created!
+        </div>
 
         <div>
             <div class="row form-group">
@@ -125,7 +135,7 @@
             </div>
 
             <div class="last-row">
-                <button class="btn btn-primary float-right" type="submit">Create</button>
+                <button class="btn btn-primary float-right" type="submit" onclick="confirmCreate()">Create</button>
                 <button class="btn btn-secondary float-right" type="reset">Clear</button>
             </div>
 
