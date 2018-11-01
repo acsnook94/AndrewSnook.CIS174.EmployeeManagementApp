@@ -110,5 +110,15 @@ namespace AndrewSnook.CIS174.EmployeeManagementApp.Web.Controllers
             return Json(viewModel, JsonRequestBehavior.AllowGet);
         }
 
+
+        public async Task<ActionResult> EmpAnniversary()
+        {
+            var employeeDisplayModel = new EmployeeDisplayModel
+            {
+                Employees = await _employeeOrchestrator.GetAllEmployees()
+            };
+
+            return View(employeeDisplayModel);
+        }
     }
 }

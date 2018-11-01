@@ -24,6 +24,7 @@
 
 
 using AndrewSnook.CIS174.EmployeeManagementApp.Domain.Entities;
+using AndrewSnook.CIS174.EmployeeManagementApp.Shared.Services;
 using System;
 
 namespace AndrewSnook.CIS174.EmployeeManagementApp.Shared.ViewModels
@@ -41,5 +42,25 @@ namespace AndrewSnook.CIS174.EmployeeManagementApp.Shared.ViewModels
         public string JobTitle { get; set; }
         public string Department { get; set; }
         public string AvailableHours { get; set; }
+
+        private readonly DateOfHireService dateOfHireService = new DateOfHireService(new DateTimeService());
+
+        public string HireAnniversary 
+        {
+            get
+            {
+                if (dateOfHireService.IsTodayHireDate(this))
+                {
+                    return HireDate.ToShortDateString() + " (Anniversary Today!)";
+                }
+                else
+                {
+                    return HireDate.ToShortDateString();
+                }
+            }
+        }
+
+        public int HireDateYearsSince => dateOfHireService.FullYearsSinceHireDate(this);
+        
     }
 }
