@@ -79,12 +79,6 @@ C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp1\AndrewSnoo
 C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp1\AndrewSnook.CIS174.EmployeeManagementApp.Web\obj\Debug\AndrewSnook.CIS174.EmployeeManagementApp.Web.dll
 C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp1\AndrewSnook.CIS174.EmployeeManagementApp.Web\obj\Debug\AndrewSnook.CIS174.EmployeeManagementApp.Web.pdb
 C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp1\AndrewSnook.CIS174.EmployeeManagementApp.Web\obj\Debug\AndrewSnook.CIS174.EmployeeManagementApp.Web.csprojAssemblyReference.cache
-C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Web\bin\roslyn\System.IO.Compression.dll
-C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Web\bin\roslyn\VBCSCompiler.exe
 C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Web\bin\AndrewSnook.CIS174.EmployeeManagementApp.Web.dll.config
 C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Web\bin\AndrewSnook.CIS174.EmployeeManagementApp.Web.dll
 C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Web\bin\AndrewSnook.CIS174.EmployeeManagementApp.Web.pdb
@@ -95,9 +89,13 @@ C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook
 C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Web\bin\roslyn\csi.exe.config
 C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Web\bin\roslyn\csi.rsp
 C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
 C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
 C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
 C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
 C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
 C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
 C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Web\bin\roslyn\Microsoft.Win32.Primitives.dll
@@ -107,6 +105,7 @@ C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook
 C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Web\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
 C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Web\bin\roslyn\System.Diagnostics.Process.dll
 C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Web\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Web\bin\roslyn\System.IO.Compression.dll
 C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Web\bin\roslyn\System.IO.FileSystem.dll
 C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Web\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
 C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Web\bin\roslyn\System.IO.FileSystem.Primitives.dll
@@ -129,6 +128,7 @@ C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook
 C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Web\bin\roslyn\vbc.exe
 C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Web\bin\roslyn\vbc.exe.config
 C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Web\bin\roslyn\vbc.rsp
+C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Web\bin\roslyn\VBCSCompiler.exe
 C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Web\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Web\bin\AndrewSnook.CIS174.EmployeeManagementApp.Domain.dll
 C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Web\bin\AndrewSnook.CIS174.EmployeeManagementApp.Shared.dll

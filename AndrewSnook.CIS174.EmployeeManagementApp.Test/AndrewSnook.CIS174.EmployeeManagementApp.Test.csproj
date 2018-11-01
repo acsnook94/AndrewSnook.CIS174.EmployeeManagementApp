@@ -69,13 +69,18 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DateOfBirthServiceTests.cs" />
+    <Compile Include="BirthDateServiceTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="HireDateServiceTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\AndrewSnook.CIS174.EmployeeManagementApp.Domain\AndrewSnook.CIS174.EmployeeManagementApp.Domain.csproj">
+      <Project>{87B9B4C1-EC55-495E-AE97-64704DCB12DC}</Project>
+      <Name>AndrewSnook.CIS174.EmployeeManagementApp.Domain</Name>
+    </ProjectReference>
     <ProjectReference Include="..\AndrewSnook.CIS174.EmployeeManagementApp.Shared\AndrewSnook.CIS174.EmployeeManagementApp.Shared.csproj">
       <Project>{59699A7D-B882-46A7-98C6-1B482858623E}</Project>
       <Name>AndrewSnook.CIS174.EmployeeManagementApp.Shared</Name>
