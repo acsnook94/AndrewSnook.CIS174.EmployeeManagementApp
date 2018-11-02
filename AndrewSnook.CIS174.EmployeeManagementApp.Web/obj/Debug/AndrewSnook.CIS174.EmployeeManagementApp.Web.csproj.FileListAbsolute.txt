@@ -159,3 +159,4 @@ C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook
 C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Web\obj\Debug\AndrewSnook.CIS174.EmployeeManagementApp.Web.csproj.CopyComplete
 C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Web\obj\Debug\AndrewSnook.CIS174.EmployeeManagementApp.Web.dll
 C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Web\obj\Debug\AndrewSnook.CIS174.EmployeeManagementApp.Web.pdb
+C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Web\bin\roslyn\System.Collections.Immutable.dll

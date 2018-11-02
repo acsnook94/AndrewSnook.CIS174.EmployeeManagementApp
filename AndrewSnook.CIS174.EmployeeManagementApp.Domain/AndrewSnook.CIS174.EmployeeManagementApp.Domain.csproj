@@ -49,10 +49,6 @@
   <ItemGroup>
     <Compile Include="EmployeeContext.cs" />
     <Compile Include="Entities\Employee.cs" />
-    <Compile Include="Migrations\201811012217533_MigrationAfterUnitTestAssignment.cs" />
-    <Compile Include="Migrations\201811012217533_MigrationAfterUnitTestAssignment.Designer.cs">
-      <DependentUpon>201811012217533_MigrationAfterUnitTestAssignment.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -111,11 +107,6 @@
     <Content Include="Scripts\jquery-3.3.1.slim.min.js" />
     <Content Include="Scripts\jquery-ui-1.12.1.js" />
     <Content Include="Scripts\jquery-ui-1.12.1.min.js" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Migrations\201811012217533_MigrationAfterUnitTestAssignment.resx">
-      <DependentUpon>201811012217533_MigrationAfterUnitTestAssignment.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

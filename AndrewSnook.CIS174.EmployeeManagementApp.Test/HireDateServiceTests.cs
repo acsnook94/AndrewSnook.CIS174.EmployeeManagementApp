@@ -48,7 +48,7 @@ namespace AndrewSnook.CIS174.EmployeeManagementApp.Test
         }
 
         [TestMethod]
-        public void SinceHireAndExpectedFullYears_AreEqual_When_DayOfYearBeforeNow()
+        public void SinceHireActualAndExpectedFullYears_AreEqual_When_DayOfYearBeforeNow()
         {
             var employee = CreateEmployee(new DateTime(2001,10,29));
 
@@ -62,7 +62,7 @@ namespace AndrewSnook.CIS174.EmployeeManagementApp.Test
         }
 
         [TestMethod]
-        public void SinceHireAndExpectedFullYears_AreEqual_When_DayOfYearEqualToNow()
+        public void SinceHireActualAndExpectedFullYears_AreEqual_When_DayOfYearEqualToNow()
         {
             var employee = CreateEmployee(new DateTime(2001,10,30));
 
@@ -76,7 +76,7 @@ namespace AndrewSnook.CIS174.EmployeeManagementApp.Test
         }
 
         [TestMethod]
-        public void SinceHireAndExpectedFullYears_AreEqual_When_DayOfYearAfterNow()
+        public void SinceHireActualAndExpectedFullYears_AreEqual_When_DayOfYearAfterNow()
         {
             var employee = CreateEmployee(new DateTime(2001,10,31));
 

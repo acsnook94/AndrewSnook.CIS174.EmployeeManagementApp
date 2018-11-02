@@ -14,18 +14,18 @@ namespace AndrewSnook.CIS174.EmployeeManagementApp.Shared.Services
 
         public int FullYearsSinceHireDate(EmployeeViewModel employee)
         {
-           if(_dateTimeService.Now().Value.DayOfYear >= employee.HireDate.DayOfYear){
-                return (_dateTimeService.Now().Value.Year - employee.HireDate.Year);
+           if(_dateTimeService.Now().Value.DayOfYear >= employee.HireDate.Value.DayOfYear){
+                return (_dateTimeService.Now().Value.Year - employee.HireDate.Value.Year);
             }
             else
             {
-                return ((_dateTimeService.Now().Value.Year - employee.HireDate.Year) - 1);
+                return ((_dateTimeService.Now().Value.Year - employee.HireDate.Value.Year) - 1);
             }
         }
 
         public bool IsTodayHireDate(EmployeeViewModel employee)
         {
-            return (employee.HireDate.Date == _dateTimeService.Now().Value.Date);
+            return (employee.HireDate.Value.DayOfYear == _dateTimeService.Now().Value.DayOfYear);
         }
     }
 }
