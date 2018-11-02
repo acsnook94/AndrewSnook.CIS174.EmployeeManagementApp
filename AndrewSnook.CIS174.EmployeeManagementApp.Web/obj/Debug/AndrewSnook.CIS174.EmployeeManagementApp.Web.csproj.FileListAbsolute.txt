@@ -160,3 +160,12 @@ C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook
 C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Web\obj\Debug\AndrewSnook.CIS174.EmployeeManagementApp.Web.dll
 C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Web\obj\Debug\AndrewSnook.CIS174.EmployeeManagementApp.Web.pdb
 C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Web\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Web\bin\Ninject.dll
+C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Web\bin\Ninject.Web.Common.dll
+C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Web\bin\Ninject.Web.Common.WebHost.dll
+C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Web\bin\Ninject.Web.Mvc.dll
+C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Web\bin\WebActivatorEx.dll
+C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Web\bin\Ninject.xml
+C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Web\bin\Ninject.Web.Common.xml
+C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Web\bin\Ninject.Web.Common.WebHost.xml
+C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Web\bin\Ninject.Web.Mvc.xml
