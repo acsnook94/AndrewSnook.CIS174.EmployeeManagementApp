@@ -23,7 +23,7 @@
 =========================================================== **/
 
 
-using AndrewSnook.CIS174.EmployeeManagementApp.Shared.Orchestrators;
+using AndrewSnook.CIS174.EmployeeManagementApp.Shared.Orchestrators.Interfaces;
 using AndrewSnook.CIS174.EmployeeManagementApp.Shared.ViewModels;
 using AndrewSnook.CIS174.EmployeeManagementApp.Web.Models;
 using System;
@@ -34,7 +34,12 @@ namespace AndrewSnook.CIS174.EmployeeManagementApp.Web.Controllers
 {
     public class EmployeeController : Controller
     {
-        private EmployeeOrchestrator _employeeOrchestrator = new EmployeeOrchestrator();
+        private readonly IEmployeeOrchestrator _employeeOrchestrator;
+
+        public EmployeeController(IEmployeeOrchestrator employeeOrchestrator)
+        {
+            _employeeOrchestrator = employeeOrchestrator;
+        }
 
         // GET: Employee
         public async Task<ActionResult> ViewAllEmployees()

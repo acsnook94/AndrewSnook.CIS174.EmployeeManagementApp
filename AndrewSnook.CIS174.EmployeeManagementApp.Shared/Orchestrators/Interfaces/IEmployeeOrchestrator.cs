@@ -29,7 +29,7 @@ using System.Threading.Tasks;
 
 namespace AndrewSnook.CIS174.EmployeeManagementApp.Shared.Orchestrators.Interfaces
 {
-    interface IEmployeeOrchestrator
+    public interface IEmployeeOrchestrator
     {
         Task<List<EmployeeViewModel>> GetAllEmployees();
         Task<int> CreateEmployee(EmployeeViewModel employee);

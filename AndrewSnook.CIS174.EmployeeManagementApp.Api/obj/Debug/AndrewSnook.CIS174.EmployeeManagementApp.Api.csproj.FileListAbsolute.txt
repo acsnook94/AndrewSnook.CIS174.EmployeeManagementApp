@@ -150,3 +150,5 @@ C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook
 C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Api\obj\Debug\AndrewSnook.CIS174.EmployeeManagementApp.Api.csproj.CopyComplete
 C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Api\obj\Debug\AndrewSnook.CIS174.EmployeeManagementApp.Api.dll
 C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Api\obj\Debug\AndrewSnook.CIS174.EmployeeManagementApp.Api.pdb
+C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Api\bin\Ninject.dll
+C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Api\bin\Ninject.xml

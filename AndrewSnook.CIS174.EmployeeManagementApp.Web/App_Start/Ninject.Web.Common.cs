@@ -5,7 +5,8 @@ namespace AndrewSnook.CIS174.EmployeeManagementApp.Web.App_Start
 {
     using System;
     using System.Web;
-
+    using AndrewSnook.CIS174.EmployeeManagementApp.Shared.Orchestrators;
+    using AndrewSnook.CIS174.EmployeeManagementApp.Shared.Orchestrators.Interfaces;
     using Microsoft.Web.Infrastructure.DynamicModuleHelper;
 
     using Ninject;
@@ -61,6 +62,7 @@ namespace AndrewSnook.CIS174.EmployeeManagementApp.Web.App_Start
         /// <param name="kernel">The kernel.</param>
         private static void RegisterServices(IKernel kernel)
         {
+            kernel.Bind<IEmployeeOrchestrator>().To<EmployeeOrchestrator>();
         }        
     }
 }

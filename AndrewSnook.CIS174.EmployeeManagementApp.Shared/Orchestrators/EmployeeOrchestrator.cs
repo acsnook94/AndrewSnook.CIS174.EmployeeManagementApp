@@ -37,7 +37,7 @@ namespace AndrewSnook.CIS174.EmployeeManagementApp.Shared.Orchestrators
 {
     public class EmployeeOrchestrator : IEmployeeOrchestrator
     {
-        private EmployeeContext _employeeContext;
+        private readonly EmployeeContext _employeeContext;
 
         public EmployeeOrchestrator()
         {
