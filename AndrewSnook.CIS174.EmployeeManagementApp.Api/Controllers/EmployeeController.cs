@@ -28,17 +28,18 @@ using System.Web.Http;
 using System.Collections.Generic;
 using AndrewSnook.CIS174.EmployeeManagementApp.Shared.Orchestrators;
 using AndrewSnook.CIS174.EmployeeManagementApp.Shared.ViewModels;
+using AndrewSnook.CIS174.EmployeeManagementApp.Shared.Orchestrators.Interfaces;
 
 namespace AndrewSnook.CIS174.EmployeeManagementApp.Api.Controllers
 {
     [Route("api/v1/employees")]
     public class EmployeeController : ApiController
     {
-        private EmployeeOrchestrator _employeeOrchestrator;
+        private readonly IEmployeeOrchestrator _employeeOrchestrator;
 
-        public EmployeeController()
+        public EmployeeController(IEmployeeOrchestrator employeeOrchestrator)
         {
-            _employeeOrchestrator = new EmployeeOrchestrator();
+            _employeeOrchestrator = employeeOrchestrator;
         }
 
         public async Task<List<EmployeeViewModel>> GetAllEmployees()
