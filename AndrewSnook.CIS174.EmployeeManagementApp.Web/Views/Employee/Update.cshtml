@@ -82,7 +82,8 @@
             <label>Birth Date</label>
         </div>
         <div class="col-md-3">
-            <input id="birthDate" type="date" class="form-control" />
+            @*<input id="birthDate" type="date" class="form-control" />*@
+            @Html.TextBoxFor(model => model.BirthDate, new{ id="birthDate", type = "date", @class="form-control"})
         </div>
     </div>
 
@@ -91,7 +92,8 @@
             <label>Hire Date</label>
         </div>
         <div class="col-md-3">
-            <input id="hireDate" type="date" class="form-control" />
+            @*<input id="hireDate" type="date" class="form-control" />*@
+            @Html.TextBoxFor(model => model.HireDate, new { id = "hireDate", type = "date", @class = "form-control" })
         </div>
 
         <div class="col-md-2 col-form-label offset-md-2">
