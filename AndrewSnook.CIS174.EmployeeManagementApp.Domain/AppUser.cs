@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNet.Identity.EntityFramework;
 
-namespace AndrewSnook.CIS174.EmployeeManagementApp.Web
+namespace AndrewSnook.CIS174.EmployeeManagementApp.Domain
 {
     public class AppUser : IdentityUser
     {

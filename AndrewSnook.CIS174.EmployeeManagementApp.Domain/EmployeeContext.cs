@@ -24,11 +24,12 @@
 
 
 using AndrewSnook.CIS174.EmployeeManagementApp.Domain.Entities;
+using Microsoft.AspNet.Identity.EntityFramework;
 using System.Data.Entity;
 
 namespace AndrewSnook.CIS174.EmployeeManagementApp.Domain
 {
-    public class EmployeeContext : DbContext
+    public class EmployeeContext : IdentityDbContext<AppUser>
     {
         public DbSet<Employee> Employees { get; set; }
     }

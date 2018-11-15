@@ -34,3 +34,8 @@ C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook
 C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Test\obj\Debug\AndrewSnook.CIS174.EmployeeManagementApp.Test.csproj.CopyComplete
 C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Test\obj\Debug\AndrewSnook.CIS174.EmployeeManagementApp.Test.dll
 C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Test\obj\Debug\AndrewSnook.CIS174.EmployeeManagementApp.Test.pdb
+C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Test\bin\Debug\AndrewSnook.CIS174.EmployeeManagementApp.Test.dll.config
+C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Test\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Test\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Test\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Test\bin\Debug\Microsoft.AspNet.Identity.Core.xml
