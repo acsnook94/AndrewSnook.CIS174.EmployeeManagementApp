@@ -82,6 +82,7 @@
   <ItemGroup>
     <Compile Include="AppRole.cs" />
     <Compile Include="AppUser.cs" />
+    <Compile Include="AppUserManager.cs" />
     <Compile Include="EmployeeContext.cs" />
     <Compile Include="Entities\Employee.cs" />
     <Compile Include="Migrations\Configuration.cs" />
