@@ -242,7 +242,6 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Employee\Update.cshtml" />
     <Content Include="Views\Employee\EmpAnniversary.cshtml" />
-    <Content Include="Views\Home\View.cshtml" />
     <Content Include="Views\Account\ConfirmEmail.cshtml" />
     <Content Include="Views\Account\ExternalLoginConfirmation.cshtml" />
     <Content Include="Views\Account\ExternalLoginFailure.cshtml" />
@@ -264,6 +263,7 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Account\_AccountLayout.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

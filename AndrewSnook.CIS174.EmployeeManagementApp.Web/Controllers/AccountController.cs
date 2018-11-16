@@ -4,8 +4,6 @@ using AndrewSnook.CIS174.EmployeeManagementApp.Web.Models;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
-using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Web;
@@ -130,7 +128,7 @@ namespace AndrewSnook.CIS174.EmployeeManagementApp.Web.Controllers
                     return View("Lockout");
                 case SignInStatus.Failure:
                 default:
-                    ModelState.AddModelError("", "Invalid code.");
+                    ModelState.AddModelError("", "Invalid username and/or password.");
                     return View(model);
             }
         }
