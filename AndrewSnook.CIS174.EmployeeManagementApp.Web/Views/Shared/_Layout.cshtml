@@ -30,12 +30,13 @@
                     </div>
                 </li>
                 @*<li class="nav-item">
-                        <a class="nav-link" href="@Url.Action("ViewAllEmployees", "Employee")">View All Employees</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="@Url.Action("Create", "Employee")">Create Employee</a>
-                    </li>*@
+                <a class="nav-link" href="@Url.Action("ViewAllEmployees", "Employee")">View All Employees</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="@Url.Action("Create", "Employee")">Create Employee</a>
+            </li>*@
             </ul>
+            @Html.Partial("_LoginPartial")
         </div>
     </nav>
 
