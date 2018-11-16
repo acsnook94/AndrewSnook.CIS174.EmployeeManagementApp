@@ -73,3 +73,7 @@ function updateEmployee() {
         }
     });
 }
+
+function BackToLogin() {
+    location.href = "/Account/Login";
+}

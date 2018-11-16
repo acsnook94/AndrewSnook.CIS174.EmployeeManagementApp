@@ -85,7 +85,7 @@ namespace AndrewSnook.CIS174.EmployeeManagementApp.Web.Controllers
                     return RedirectToAction("SendCode", new { ReturnUrl = returnUrl, RememberMe = model.RememberMe });
                 case SignInStatus.Failure:
                 default:
-                    ModelState.AddModelError("", "Invalid login attempt.");
+                    ModelState.AddModelError("", "Invalid username and/or password.");
                     return View(model);
             }
         }
@@ -128,7 +128,7 @@ namespace AndrewSnook.CIS174.EmployeeManagementApp.Web.Controllers
                     return View("Lockout");
                 case SignInStatus.Failure:
                 default:
-                    ModelState.AddModelError("", "Invalid username and/or password.");
+                    ModelState.AddModelError("", "Invalid code.");
                     return View(model);
             }
         }

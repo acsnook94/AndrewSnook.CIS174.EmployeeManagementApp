@@ -31,12 +31,14 @@
         </div>
     </div>
     <div class="form-group">
-        <div class="col-md-offset-2 col-md-10">
+        <span>
             <input type="submit" class="btn btn-default" value="Register" />
-        </div>
+            <input class="btn btn-dark" type="button" value="Back To Login" onclick="BackToLogin()" />
+        </span>
     </div>
 }
 
 @section Scripts {
     @Scripts.Render("~/bundles/jqueryval")
+
 }
