@@ -24,6 +24,7 @@
 
 
 using AndrewSnook.CIS174.EmployeeManagementApp.Domain.Entities;
+using AndrewSnook.CIS174.EmployeeManagementApp.Entities;
 using Microsoft.AspNet.Identity.EntityFramework;
 using System.Data.Entity;
 
@@ -32,5 +33,6 @@ namespace AndrewSnook.CIS174.EmployeeManagementApp.Domain
     public class EmployeeContext : IdentityDbContext<AppUser>
     {
         public DbSet<Employee> Employees { get; set; }
+        public DbSet<Error> Errors {get;set;}
     }
 }
