@@ -77,3 +77,7 @@ function updateEmployee() {
 function BackToLogin() {
     location.href = "/Account/Login";
 }
+
+function ErrorGoToHome() {
+    location.href = "/Home/Index";
+}

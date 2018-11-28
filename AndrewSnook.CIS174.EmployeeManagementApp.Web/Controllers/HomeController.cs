@@ -9,5 +9,11 @@ namespace AndrewSnook.CIS174.EmployeeManagementApp.Web.Controllers
         {
             return View();
         }
+
+        //GET: AppError
+        public ActionResult AppError()
+        {
+            return View();
+        }
     }
 }

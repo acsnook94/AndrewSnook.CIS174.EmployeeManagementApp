@@ -12,5 +12,6 @@ namespace AndrewSnook.CIS174.EmployeeManagementApp.Web
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
         }
+
     }
 }
