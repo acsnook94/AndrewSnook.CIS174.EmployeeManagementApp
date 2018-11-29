@@ -78,13 +78,13 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AndrewSnook.CIS174.EmployeeManagementApp.Domain\AndrewSnook.CIS174.EmpMgmtApp.Domain.csproj">
+    <ProjectReference Include="..\AndrewSnook.CIS174.EmployeeManagementApp.Domain\AndrewSnook.CIS174.EmployeeManagementApp.Domain.csproj">
       <Project>{87B9B4C1-EC55-495E-AE97-64704DCB12DC}</Project>
-      <Name>AndrewSnook.CIS174.EmpMgmtApp.Domain</Name>
+      <Name>AndrewSnook.CIS174.EmployeeManagementApp.Domain</Name>
     </ProjectReference>
-    <ProjectReference Include="..\AndrewSnook.CIS174.EmployeeManagementApp.Shared\AndrewSnook.CIS174.EmpMgmtApp.Shared.csproj">
+    <ProjectReference Include="..\AndrewSnook.CIS174.EmployeeManagementApp.Shared\AndrewSnook.CIS174.EmployeeManagementApp.Shared.csproj">
       <Project>{59699A7D-B882-46A7-98C6-1B482858623E}</Project>
-      <Name>AndrewSnook.CIS174.EmpMgmtApp.Shared</Name>
+      <Name>AndrewSnook.CIS174.EmployeeManagementApp.Shared</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
