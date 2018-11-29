@@ -1,7 +1,9 @@
-﻿using System.Web.Mvc;
+﻿using System.Threading.Tasks;
+using System.Web.Mvc;
 
 namespace AndrewSnook.CIS174.EmployeeManagementApp.Web.Controllers
 {
+
     public class HomeController : Controller
     {
         // GET: Home
@@ -10,10 +12,5 @@ namespace AndrewSnook.CIS174.EmployeeManagementApp.Web.Controllers
             return View();
         }
 
-        //GET: AppError
-        public ActionResult AppError()
-        {
-            return View();
-        }
     }
 }

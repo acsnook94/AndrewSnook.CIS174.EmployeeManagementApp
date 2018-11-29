@@ -8,7 +8,7 @@ namespace AndrewSnook.CIS174.EmployeeManagementApp.Web
     {
         public void Configuration(IAppBuilder app)
         {
-            ConfigureAuth(app);
+            ConfigureAuth(app);         
         }
     }
 }
