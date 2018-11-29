@@ -286,13 +286,13 @@
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AndrewSnook.CIS174.EmployeeManagementApp.Domain\AndrewSnook.CIS174.EmployeeManagementApp.Domain.csproj">
+    <ProjectReference Include="..\AndrewSnook.CIS174.EmployeeManagementApp.Domain\AndrewSnook.CIS174.EmpMgmtApp.Domain.csproj">
       <Project>{87b9b4c1-ec55-495e-ae97-64704dcb12dc}</Project>
-      <Name>AndrewSnook.CIS174.EmployeeManagementApp.Domain</Name>
+      <Name>AndrewSnook.CIS174.EmpMgmtApp.Domain</Name>
     </ProjectReference>
-    <ProjectReference Include="..\AndrewSnook.CIS174.EmployeeManagementApp.Shared\AndrewSnook.CIS174.EmployeeManagementApp.Shared.csproj">
+    <ProjectReference Include="..\AndrewSnook.CIS174.EmployeeManagementApp.Shared\AndrewSnook.CIS174.EmpMgmtApp.Shared.csproj">
       <Project>{59699A7D-B882-46A7-98C6-1B482858623E}</Project>
-      <Name>AndrewSnook.CIS174.EmployeeManagementApp.Shared</Name>
+      <Name>AndrewSnook.CIS174.EmpMgmtApp.Shared</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

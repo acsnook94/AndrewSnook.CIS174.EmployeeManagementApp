@@ -171,9 +171,9 @@
     <Content Include="Scripts\jquery-ui-1.12.1.min.js" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AndrewSnook.CIS174.EmployeeManagementApp.Domain\AndrewSnook.CIS174.EmployeeManagementApp.Domain.csproj">
+    <ProjectReference Include="..\AndrewSnook.CIS174.EmployeeManagementApp.Domain\AndrewSnook.CIS174.EmpMgmtApp.Domain.csproj">
       <Project>{87b9b4c1-ec55-495e-ae97-64704dcb12dc}</Project>
-      <Name>AndrewSnook.CIS174.EmployeeManagementApp.Domain</Name>
+      <Name>AndrewSnook.CIS174.EmpMgmtApp.Domain</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
