@@ -24,6 +24,7 @@
 
 
 using AndrewSnook.CIS174.EmployeeManagementApp.Shared.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
@@ -32,6 +33,7 @@ namespace AndrewSnook.CIS174.EmployeeManagementApp.Shared.Orchestrators.Interfac
     public interface IEmployeeOrchestrator
     {
         Task<List<EmployeeViewModel>> GetAllEmployees();
+        Task<Dictionary<Guid, string>> GetAllEmpsIDFullName();
         Task<int> CreateEmployee(EmployeeViewModel employee);
         Task<bool> UpdateEmployee(EmployeeViewModel employee);
         Task<EmployeeViewModel> SearchEmployee(string searchString);

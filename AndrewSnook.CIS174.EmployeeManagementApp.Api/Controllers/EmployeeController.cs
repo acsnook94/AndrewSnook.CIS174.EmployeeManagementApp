@@ -29,10 +29,10 @@ using System.Collections.Generic;
 using AndrewSnook.CIS174.EmployeeManagementApp.Shared.Orchestrators;
 using AndrewSnook.CIS174.EmployeeManagementApp.Shared.ViewModels;
 using AndrewSnook.CIS174.EmployeeManagementApp.Shared.Orchestrators.Interfaces;
+using System;
 
 namespace AndrewSnook.CIS174.EmployeeManagementApp.Api.Controllers
 {
-    [Route("api/v1/employees")]
     public class EmployeeController : ApiController
     {
         private readonly IEmployeeOrchestrator _employeeOrchestrator;
@@ -42,11 +42,21 @@ namespace AndrewSnook.CIS174.EmployeeManagementApp.Api.Controllers
             _employeeOrchestrator = employeeOrchestrator;
         }
 
+        [Route("api/v1/employees")]
         public async Task<List<EmployeeViewModel>> GetAllEmployees()
         {
             var employees = await _employeeOrchestrator.GetAllEmployees();
 
             return employees;
         }
+
+        [Route("api/v1/empidfullname")]
+        public async Task<Dictionary<Guid, string>> GetAllEmpsIDFullName()
+        {
+            var employees = await _employeeOrchestrator.GetAllEmpsIDFullName();
+
+            return employees;
+        }
+
     }
 }

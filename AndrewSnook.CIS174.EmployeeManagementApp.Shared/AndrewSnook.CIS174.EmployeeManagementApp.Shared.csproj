@@ -111,6 +111,7 @@
     <Compile Include="Services\Interfaces\IDateOfBirthService.cs" />
     <Compile Include="Services\Interfaces\IDateTimeService.cs" />
     <Compile Include="ViewModels\AccountViewModel.cs" />
+    <Compile Include="ViewModels\EmpIDFullNameViewModel.cs" />
     <Compile Include="ViewModels\EmployeeViewModel.cs" />
     <Compile Include="ViewModels\ManageViewModel.cs" />
   </ItemGroup>

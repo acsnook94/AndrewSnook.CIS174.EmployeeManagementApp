@@ -138,5 +138,17 @@ namespace AndrewSnook.CIS174.EmployeeManagementApp.Shared.Orchestrators
 
             return viewModel;
         }
+
+        //For use with Web API
+        public async Task<Dictionary<Guid, string>> GetAllEmpsIDFullName()
+        {
+            var employees = await _employeeContext.Employees.Select(x => new EmpIDFullNameViewModel
+            {
+                EmpFullName = (x.FirstName + "" + x.MiddleInitial + "" + x.LastName),
+                EmpID = (x.EmployeeId)
+            }).ToDictionaryAsync(x => x.EmpID, x=> x.EmpFullName);
+
+            return employees;
+        }
     }
 }
