@@ -144,8 +144,8 @@ namespace AndrewSnook.CIS174.EmployeeManagementApp.Shared.Orchestrators
         {
             var employees = await _employeeContext.Employees.Select(x => new EmpIDFullNameViewModel
             {
-                EmpFullName = (x.FirstName + "" + x.MiddleInitial + "" + x.LastName),
-                EmpID = (x.EmployeeId)
+                EmpID = (x.EmployeeId),
+                EmpFullName = (x.FirstName + "" + x.MiddleInitial + "" + x.LastName)
             }).ToDictionaryAsync(x => x.EmpID, x=> x.EmpFullName);
 
             return employees;
