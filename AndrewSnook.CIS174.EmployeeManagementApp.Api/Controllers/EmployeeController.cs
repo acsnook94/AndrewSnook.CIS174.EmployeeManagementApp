@@ -26,7 +26,6 @@
 using System.Threading.Tasks;
 using System.Web.Http;
 using System.Collections.Generic;
-using AndrewSnook.CIS174.EmployeeManagementApp.Shared.Orchestrators;
 using AndrewSnook.CIS174.EmployeeManagementApp.Shared.ViewModels;
 using AndrewSnook.CIS174.EmployeeManagementApp.Shared.Orchestrators.Interfaces;
 using System;
