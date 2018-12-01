@@ -41,6 +41,7 @@ namespace AndrewSnook.CIS174.EmployeeManagementApp.Api.Controllers
             _employeeOrchestrator = employeeOrchestrator;
         }
 
+        [HttpGet]
         [Route("api/v1/employees")]
         public async Task<List<EmployeeViewModel>> GetAllEmployees()
         {
@@ -49,6 +50,7 @@ namespace AndrewSnook.CIS174.EmployeeManagementApp.Api.Controllers
             return employees;
         }
 
+        [HttpGet]
         [Route("api/v1/empidfullname")]
         public async Task<Dictionary<Guid, string>> GetAllEmpsIDFullName()
         {

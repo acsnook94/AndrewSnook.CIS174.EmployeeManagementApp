@@ -32,6 +32,21 @@ namespace AndrewSnook.CIS174.EmployeeManagementApp.Domain.Migrations
                     JobTitle = "Intern",
                     Department = "IT",
                     AvailableHours = "M-F 12:00AM-11:59PM"
+                }
+                
+                , new Employee()
+                {
+                    FirstName = "Johnny",
+                    MiddleInitial = "M",
+                    LastName = "Marr",
+                    HireDate = new DateTime(2017, 01, 02),
+                    BirthDate = new DateTime(1952, 03, 27),
+                    Salary = 99000,
+                    SalaryType = SalaryType.Annual,
+                    EmployeeId = Guid.Parse("191156b3-229f-4fce-8df6-9d19eaea44c0"),
+                    JobTitle = "Guitarist",
+                    Department = "Recording",
+                    AvailableHours = "M-T 2AM-7PM, Th-Sa 10AM-11PM"
                 });
         }
     }
