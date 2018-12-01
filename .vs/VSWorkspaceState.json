@@ -1,6 +1,8 @@
 {
   "ExpandedNodes": [
     "",
+    "\\AndrewSnook.CIS174.EmployeeManagementApp.Domain",
+    "\\AndrewSnook.CIS174.EmployeeManagementApp.Domain\\Migrations",
     "\\AndrewSnook.CIS174.EmployeeManagementApp.Web",
     "\\AndrewSnook.CIS174.EmployeeManagementApp.Web\\Content",
     "\\AndrewSnook.CIS174.EmployeeManagementApp.Web\\Scripts",
@@ -8,6 +10,6 @@
     "\\AndrewSnook.CIS174.EmployeeManagementApp.Web\\Views",
     "\\AndrewSnook.CIS174.EmployeeManagementApp.Web\\Views\\Employee"
   ],
-  "SelectedNode": "\\AndrewSnook.CIS174.EmployeeManagementApp.Web\\Views\\Employee\\Update.cshtml",
+  "SelectedNode": "\\AndrewSnook.CIS174.EmployeeManagementApp.Domain\\Migrations\\Configuration.cs",
   "PreviewInSolutionExplorer": false
 }

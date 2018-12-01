@@ -150,5 +150,28 @@ namespace AndrewSnook.CIS174.EmployeeManagementApp.Shared.Orchestrators
 
             return employees;
         }
+
+        //For use with Web API
+        public async Task<SingleEmpViewModel> GetEmpByID(Guid empID)
+        {
+            var employee = await _employeeContext.Employees.Where
+                (x => x.EmployeeId.Equals(empID)).FirstOrDefaultAsync();
+
+            if(employee == null)
+            {
+                return null;
+            }
+
+            var viewModel = new SingleEmpViewModel
+            {
+                EmpFirst = employee.FirstName,
+                EmpMiddle = employee.MiddleInitial,
+                EmpLast = employee.LastName,
+                EmpBirthDate = employee.BirthDate,
+                EmpDept = employee.Department
+            };
+
+            return viewModel;
+        }
     }
 }

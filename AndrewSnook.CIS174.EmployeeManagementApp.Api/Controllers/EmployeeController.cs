@@ -29,6 +29,8 @@ using System.Collections.Generic;
 using AndrewSnook.CIS174.EmployeeManagementApp.Shared.ViewModels;
 using AndrewSnook.CIS174.EmployeeManagementApp.Shared.Orchestrators.Interfaces;
 using System;
+using System.Net.Http;
+using System.Net;
 
 namespace AndrewSnook.CIS174.EmployeeManagementApp.Api.Controllers
 {
@@ -59,5 +61,18 @@ namespace AndrewSnook.CIS174.EmployeeManagementApp.Api.Controllers
             return employees;
         }
 
+        [HttpGet]
+        [Route("api/v1/empsingleidsearch")]
+        public async Task<SingleEmpViewModel> GetEmpByID(Guid empID)
+        {
+            var employee = await _employeeOrchestrator.GetEmpByID(empID);
+           
+            if(employee == null)
+            {
+                throw new HttpResponseException(new HttpResponseMessage(HttpStatusCode.NotFound));
+            }
+
+            return employee;
+        }
     }
 }
