@@ -139,6 +139,7 @@
     <Compile Include="ViewModels\EmpIDFullNameViewModel.cs" />
     <Compile Include="ViewModels\EmployeeViewModel.cs" />
     <Compile Include="ViewModels\ManageViewModel.cs" />
+    <Compile Include="ViewModels\SingleEmpViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
