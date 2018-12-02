@@ -24,7 +24,6 @@
 
 
 using AndrewSnook.CIS174.EmployeeManagementApp.Domain.Entities;
-using AndrewSnook.CIS174.EmployeeManagementApp.Entities;
 using Microsoft.AspNet.Identity.EntityFramework;
 using System.Data.Entity;
 

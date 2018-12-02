@@ -1,10 +1,9 @@
-﻿using AndrewSnook.CIS174.EmployeeManagementApp.Domain;
-using Microsoft.AspNet.Identity;
+﻿using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
 
-namespace AndrewSnook.CIS174.EmployeeManagementApp
+namespace AndrewSnook.CIS174.EmployeeManagementApp.Domain
 {
     public class AppUserManager : UserManager<AppUser>
     {

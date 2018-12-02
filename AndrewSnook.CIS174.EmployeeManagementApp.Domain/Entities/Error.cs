@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace AndrewSnook.CIS174.EmployeeManagementApp.Entities
+namespace AndrewSnook.CIS174.EmployeeManagementApp.Domain.Entities
 {
     public class Error
     {
