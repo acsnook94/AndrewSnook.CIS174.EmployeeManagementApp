@@ -46,4 +46,3 @@ C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook
 C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Domain\obj\Debug\AndrewSnook.CIS174.EmployeeManagementApp.Domain.csproj.CopyComplete
 C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Domain\obj\Debug\AndrewSnook.CIS174.EmployeeManagementApp.Domain.dll
 C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Domain\obj\Debug\AndrewSnook.CIS174.EmployeeManagementApp.Domain.pdb
-C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Domain\obj\Debug\AndrewSnook.CIS174.EmployeeManagementApp.Domain.csprojAssemblyReference.cache
