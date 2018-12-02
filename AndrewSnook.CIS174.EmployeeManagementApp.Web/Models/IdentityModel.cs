@@ -20,7 +20,7 @@ namespace AndrewSnook.CIS174.EmployeeManagementApp.Web.Models
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public ApplicationDbContext()
-            : base("DefaultConnection", throwIfV1Schema: false)
+            : base("EmployeeMgmt", throwIfV1Schema: false)
         {
         }
 

@@ -3,9 +3,6 @@ C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook
 C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Domain\bin\Debug\AndrewSnook.CIS174.EmployeeManagementApp.Domain.pdb
 C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Domain\bin\Debug\EntityFramework.dll
 C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Domain\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Domain\bin\Debug\Microsoft.AspNet.Identity.Core.dll
-C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Domain\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
-C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Domain\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
 C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Domain\bin\Debug\Microsoft.Owin.dll
 C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Domain\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
 C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Domain\bin\Debug\Microsoft.Owin.Security.Cookies.dll
@@ -25,9 +22,6 @@ C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook
 C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Domain\bin\Debug\WebActivatorEx.dll
 C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Domain\bin\Debug\EntityFramework.xml
 C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Domain\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Domain\bin\Debug\Microsoft.AspNet.Identity.Core.xml
-C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Domain\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
-C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Domain\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
 C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Domain\bin\Debug\Microsoft.Owin.xml
 C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Domain\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
 C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Domain\bin\Debug\Microsoft.Owin.Security.xml
@@ -46,3 +40,4 @@ C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook
 C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Domain\obj\Debug\AndrewSnook.CIS174.EmployeeManagementApp.Domain.csproj.CopyComplete
 C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Domain\obj\Debug\AndrewSnook.CIS174.EmployeeManagementApp.Domain.dll
 C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Domain\obj\Debug\AndrewSnook.CIS174.EmployeeManagementApp.Domain.pdb
+C:\Users\acsno\source\repos\AndrewSnook.CIS174.EmployeeManagementApp\AndrewSnook.CIS174.EmployeeManagementApp.Domain\obj\Debug\AndrewSnook.CIS174.EmployeeManagementApp.Domain.csprojAssemblyReference.cache
